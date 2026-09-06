@@ -1,0 +1,267 @@
+🧠 Daily Problem Solving Submission
+
+📅 Day & Date
+Day: 01
+Date: 9/6/26
+
+⏱️ Session Information
+Total Time: 30 minutes
+Confidence Before Starting: 8/ 10
+Confidence After Finishing: 10 / 10
+Did I use any external solution?
+Yes / No(ok)
+If Yes, কোথায় এবং কেন?
+...
+
+--------------------------------------------------------------------------------
+
+🧩 Problem 01 — [find sum of an array ]
+
+1. Problem Understanding
+ shob gula element k iterate kore shob gulor jog fol ber kora
+
+2. Input
+ekta array
+...
+
+3. Output
+shob gulor jog fol
+...
+
+4. My Own Example
+Input: [5,2,3,1]
+...
+
+Output:
+11
+...
+
+কেন এই Output হবে?
+shob gulor jog fol 5+2+3+1 = 11 
+...
+
+5. My Approach / Logic
+Code লেখার আগে আমি কীভাবে Problem-টা solve করার চিন্তা করেছি?
+Step 1: ekta variable nibo like sum jeta 0 die init korbo 
+Step 2:shob gulo element k travarse korb 
+Step 3:protita item k sum er sathe jog kore rakhbo 
+Step 4: 
+
+6. Code
+const numbers = [5, 8, 10, 20];
+
+let sum = 0;
+
+numbers.forEach((elem) => {
+  sum = sum + elem;
+});
+
+console.log(sum);
+
+7. Result
+Expected Output: 43
+...
+
+My Output:
+43
+...
+
+8. Time Taken
+10 minutes
+
+9. Difficulty
+02 / 10
+
+10. Where I Got Stuck
+no stuck
+...
+
+11. Hint Needed?
+Yes / No(ok)
+যদি Yes হয়:
+আমি কী Hint নিয়েছিলাম?
+...
+
+--------------------------------------------------------------------------------
+
+🧩 Problem 02 — [Problem Name]
+
+1. Problem Understanding
+... Maximum number ta ber korte hobe 
+
+2. Input
+const nums = [5, 8, 10, 20];
+...
+
+3. Output
+43
+...
+
+4. My Own Example
+Input:
+...
+
+Output:
+...
+
+Why?
+...
+
+5. My Approach / Logic
+Step 1: dhore nebo prothom man tai maxium 
+Step 2:protita element iterate korbo  iterate shuru korbo 1 theke jehetu 0 k maxium dhore rakhsi 
+Step 3:compare korbo dhore first index er value er sathe je max er theke boro kina tyle elem k max e assign kore dibo  
+Step 4:
+
+6. Code
+const numbers = [5, 8, 10, 20];
+let max = numbers[0];
+for (let i = 1; i < numbers.length; i++) {
+  if (max! < numbers[i]!) {
+    max = numbers[i];
+  }
+}
+console.log("max is : ", max);
+
+7. Result
+Expected: 
+43
+...
+
+Actual:
+43
+...
+
+8. Time Taken
+5 minutes
+
+9. Difficulty
+02 / 10
+
+10. Where I Got Stuck
+...
+
+11. Hint Needed?
+Yes / No(ok)
+
+--------------------------------------------------------------------------------
+
+🧩 Problem 03 — [Problem Name]
+
+1. Problem Understanding
+count even in a array 
+...
+
+2. Input
+
+const nums = [5, 8, 10, 20];
+...
+
+3. Output
+3
+...
+
+4. My Own Example
+Input:
+...
+
+Output:
+...
+
+Why?
+...
+
+5. My Approach / Logic
+Step 1: protita item itarate korbo 
+Step 2: item k 2 die mod korbo jodi result == 0 hoy even
+Step 3:
+Step 4:
+
+6. Code
+// My solution
+const nums = [5, 8, 10, 13, 12];
+let evenCount = 0;
+for (let i = 0; i < nums.length; i++) {
+  console.log(i);
+  if (nums[i]! % 2 === 0) {
+    evenCount++;
+  }
+}
+
+console.log(evenCount);
+
+
+7. Result
+Expected:
+3
+...
+
+Actual:
+...
+
+8. Time Taken
+5 minutes
+
+9. Difficulty
+02 / 10
+
+10. Where I Got Stuck
+...
+
+11. Hint Needed?
+Yes / No(ok)
+
+--------------------------------------------------------------------------------
+
+🧠 Daily Reflection
+
+1. আজকের সবচেয়ে কঠিন Problem কোনটা?
+shob easy 
+...
+
+2. কোথায় আমার Brain Blank হয়ে গিয়েছিল?
+kothao na
+...
+
+3. আমি কোন ভুল করেছি?
+maybe na
+...
+
+4. আমি কীভাবে সেই ভুল বুঝলাম?
+NA
+...
+
+5. আজকের সবচেয়ে গুরুত্বপূর্ণ Learning
+thinking in progmmer way like chinta kora. problem pailei code na chole jawa 
+...
+
+6. আজ আমি কোন নতুন Concept/Pattern শিখলাম?
+nothing
+...
+
+7. আজকের Problem-এর মধ্যে কোনটা আমি আবার নিজে করতে চাই?
+...
+
+8. আজকের Problem Solving Confidence
+10/ 10
+
+--------------------------------------------------------------------------------
+
+📊 Daily Progress
+
+Skill                        | Score
+-----------------------------|-------
+Problem Understanding        | 10 / 10
+Logic Building               | 10 / 10
+Breaking Problem into Steps  | 10 / 10
+Coding                       | 10 / 10
+Debugging                    | 10 / 10
+Edge Case Thinking           | 10 / 10
+Confidence                   | 10 / 10
+
+--------------------------------------------------------------------------------
+
+🔗 GitHub
+Repository: [GitHub Link]
+Today's Commit: 
+
