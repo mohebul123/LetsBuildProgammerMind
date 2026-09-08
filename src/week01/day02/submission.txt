@@ -1,0 +1,117 @@
+🧠 DAY 02 9/8/2026 SUBMISSION
+
+Date:
+Total Time:
+Confidence: __/10
+
+━━━━━━━━━━━━━━━━━━━━━━
+🧩 PROBLEM 1 — Find Minimum
+━━━━━━━━━━━━━━━━━━━━━━
+
+My Approach:
+1) same as find maximum , here let first index is minimum 
+2) then compare if current index number is less then minimum 
+3) If true then assign the current valu to minimum
+
+Code:
+
+// solution
+const nums = [12, 5, 8, 2, 20, 7];
+
+let min = nums[0];
+for (let i = 1; i < nums.length; i++) {
+  if (min! > nums[i]!) {
+    min = nums[i];
+  }
+}
+
+console.log(min);
+
+
+Time: 3 min
+
+Stuck? No(ok) / Yes —
+
+━━━━━━━━━━━━━━━━━━━━━━
+🧩 PROBLEM 2 — Count Positive & Negative
+━━━━━━━━━━━━━━━━━━━━━━
+
+My Approach:
+1)Declared 3 variable called pos,neg,zero assigned with zero
+2)after that check if current is less than or bigger than zero 
+3) then increament that variable 
+4)if no one match then increase zero varibale 
+
+Code:
+
+// solution
+const nums = [1, 5, -2, 8, -10, 0, 7, -3, 0, 0];
+
+let pos = 0;
+let neg = 0;
+let zero = 0;
+
+for (let i = 0; i < nums.length; i++) {
+  if (nums[i]! < 0) neg++;
+  else if (nums[i]! > 0) pos++;
+  else zero++;
+}
+
+console.log("Positive:", pos, "Negative:", neg, "Zeros:", zero);
+
+
+Time: 4 min
+
+Stuck? No(ok) / Yes —
+
+━━━━━━━━━━━━━━━━━━━━━━
+🧩 PROBLEM 3 — [Name]
+━━━━━━━━━━━━━━━━━━━━━━
+
+My Approach:
+1)took two variable named max and secondMax 
+2) start itarate from 1 and indexed zero is my current max number
+3) In the for Loop I Compared if current bigger than max than assign max with the current
+4) another condition for secondMax , 
+
+
+Code:
+
+// solution
+const numbers = [5, 5, 10, 8];
+let max = numbers[0];
+let secondMax = -Infinity;
+for (let i = 1; i < numbers.length; i++) {
+  if (max! < numbers[i]!) {
+    max = numbers[i];
+  } else if (secondMax < numbers[i]!) {
+    secondMax = numbers[i]!;
+  }
+}
+console.log("second Higehts Is: ", secondMax);
+
+Time: 60min
+
+Stuck? No / Yes(ok)
+
+━━━━━━━━━━━━━━━━━━━━━━
+🧠 DAILY REFLECTION
+━━━━━━━━━━━━━━━━━━━━━━
+
+Biggest difficulty:
+To find second highest value today , I need to took hints from you 
+...
+
+What I learned:
+How to think . I learned about manual tracing
+...
+
+Something I want to improve:
+
+solve crticial problem
+
+...
+
+GitHub:
+
+...
