@@ -1,0 +1,117 @@
+🧠 DAY 03 SUBMISSION
+
+Date:9/9/2026
+Total Time:30 min
+Confidence: 7/10
+
+━━━━━━━━━━━━━━━━━━━━━━
+🧩 PROBLEM 1 — 5 counters
+━━━━━━━━━━━━━━━━━━━━━━
+
+My Approach:
+
+1.took a fiveCounter Variable assigned with 0 
+2.itereate loop and find and compare exact 5 
+3.update counter
+
+Code:
+const nums = [5, 2, 5, 8, 5, 10];
+
+let fiveCounter = 0;
+
+for (let i = 0; i < nums.length; i++) {
+  if (nums[i] === 5) fiveCounter++;
+}
+
+console.log("Five occures ", fiveCounter, "times");
+
+```ts
+// solution
+```
+
+Time: 3 min
+
+Stuck? No(ok) / Yes —
+
+━━━━━━━━━━━━━━━━━━━━━━
+🧩 PROBLEM 2 — count odd numbers
+━━━━━━━━━━━━━━━━━━━━━━
+
+My Approach:
+
+1.took a variable named oddCounter assigned with 0
+2.after that iterate the loop and check if mod exact 0 if then 
+3.update counter value 
+
+Code:
+//count odd numbers
+const nums = [5, 8, 10, 13, 12, 7, 9];
+
+let oddCounter = 0;
+
+for (let i = 0; i < nums.length; i++) {
+  if (!(nums[i]! % 2 === 0)) oddCounter++;
+}
+
+console.log(oddCounter);
+
+```ts
+// solution
+```
+
+Time: 2.30 min
+
+Stuck? No(no) / Yes —
+
+━━━━━━━━━━━━━━━━━━━━━━
+🧩 PROBLEM 3 — Find First Duplicate
+━━━━━━━━━━━━━━━━━━━━━━
+
+My Approach:
+
+1. took a empty array named with seen another one is firstDuplicate
+2.itarate loop and check current value is in seen array 
+3.if not then push current value to seen array 
+
+Code:
+//First duplicate find
+
+const nums = [5, 2, 8, 2, 10, 5];
+
+let seen: number[] = [];
+let firstDuplicate;
+for (let i = 0; i < nums.length; i++) {
+  if (seen.includes(nums[i]!)) {
+    firstDuplicate = nums[i];
+    console.log("first duplicate is :", firstDuplicate);
+    break;
+  } else seen.push(nums[i]!);
+}
+
+```ts
+// solution
+```
+
+Time: 25 min
+
+Stuck? No / Yes(ok)
+
+━━━━━━━━━━━━━━━━━━━━━━
+🧠 DAILY REFLECTION
+━━━━━━━━━━━━━━━━━━━━━━
+
+Biggest difficulty:
+
+...
+
+What I learned:
+
+...
+
+Something I want to improve:
+
+...
+
+GitHub:
+
+...
